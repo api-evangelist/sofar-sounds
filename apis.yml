@@ -1,8 +1,25 @@
 aid: sofar-sounds
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sofar-sounds.png
 name: Sofar Sounds
-description: Sofar Sounds is a company surfaced as a portfolio company of battery-ventures, union-square-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Sofar Sounds curates secret, intimate live-music gigs in living rooms, small venues, and
+  unexpected spaces in hundreds of cities around the world. The company connects independent and emerging
+  artists with attentive local audiences through a mobile-first ticketing and events platform, and works
+  with hosts who lend their spaces for the shows. Sofar operates a consumer-facing website and apps rather
+  than a public developer program; probing its surface confirmed no documented public API, developer portal,
+  SDKs, or OpenAPI. It runs a real GitHub organization (github.com/sofarsounds) of internal engineering
+  repositories, and its production backend is served from api.sofarsounds.com (Heroku), but neither exposes
+  a published, documented API for third-party developers.
 url: https://raw.githubusercontent.com/api-evangelist/sofar-sounds/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Music
+- Live Events
+- Concerts
+- Ticketing
+- Entertainment
+- Events
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sofar-sounds-domain-security.yml
 - type: Website
   url: https://www.sofarsounds.com
+- type: GitHubOrganization
+  url: https://github.com/sofarsounds
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
