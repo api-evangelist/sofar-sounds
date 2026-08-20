@@ -38,6 +38,14 @@ tags:
 - Concerts
 - Ticketing
 - Entertainment
+- Event
+tags_raw:
+- Company
+- Music
+- Live Events
+- Concerts
+- Ticketing
+- Entertainment
 - Events
 apis: []
 maintainers:
